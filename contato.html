@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contato | PitPet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="topo"></header>
+    <section>
+        <div class="wrap two">
+            <div><span class="tag">Agende agora</span>
+                <h2>Fale com a gente</h2>
+                <ul class="check">
+                    <li>📞 (51) 99999-0000</li>
+                    <li>✉️ contato@petvida.com.br</li>
+                    <li>📍 Rua dos Pets, 123 — Guaíba/RS</li>
+                    <li>🚨 Emergência 24 horas</li>
+                </ul>
+                <a class="btn alt" style="margin-top:18px" href="https://wa.me/5551999990000" target="_blank"
+                    rel="noopener">💬 Chamar no WhatsApp</a>
+            </div>
+            <form id="form" class="card" novalidate>
+                <h3>Solicitar agendamento</h3>
+                <input name="nome" placeholder="Seu nome"><input name="email" type="email" placeholder="E-mail"><input
+                    name="fone" placeholder="Telefone com DDD">
+                <input name="pet" placeholder="Nome do pet"><select name="servico">
+                    <option>Consulta</option>
+                    <option>Vacina</option>
+                    <option>Exames</option>
+                    <option>Banho &amp; Tosa</option>
+                </select>
+                <textarea name="obs" rows="3" placeholder="Observações"></textarea><button class="btn"
+                    type="submit">Enviar pedido</button>
+                <div id="msg" class="msg"></div>
+            </form>
+        </div>
+    </section>
+    <footer id="rodape"></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
